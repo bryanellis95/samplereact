@@ -209,7 +209,8 @@
 
             .header-info-area{
                 @media #{$desktop-device, $tablet-device, $large-mobile}{
-                    padding: 25px 0;
+                    padding: 2px 0;
+                    
                 }
             }
         }

@@ -13,16 +13,17 @@ import Footer from './components/Footer';
 
 
 class HomeOne extends Component{
+    
     render(){
-        
+       
         return(
             <div>
                 
                 {/* Navigation bar */}
                 <NavBar/>
-                
+               
                 {/* Hero slider */}
-                <HeroSliderOne/>
+                {/* <HeroSliderOne/> */}
                 
                 {/* Service grid slider */}
                 <ServiceGridSlider/>
