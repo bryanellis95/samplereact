@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Swiper from 'react-id-swiper';
 
-class ServiceGallery extends Component{
+class ServiceGalleryRoom extends Component{
     render(){
                 
         /* service image gallery slider params*/
@@ -25,12 +25,12 @@ class ServiceGallery extends Component{
         /* service image gallery data */
 
         let imageGalleryData = [
-            {img: 'service-details-1.jpg'},
-            {img: 'service-details-2.jpg'},
-            {img: 'service-details-3.jpg'},
-            {img: 'service-details-4.jpg'},
-            {img: 'service-details-5.jpg'},
-            {img: 'service-details-6.jpg'}
+            {img: 'room.jpg'},
+            {img: 'room1.jpg'},
+            {img: 'room2.jpg'},
+            // {img: 'service-details-4.jpg'},
+            // {img: 'service-details-5.jpg'},
+            // {img: 'service-details-6.jpg'}
         ];
 
         
@@ -40,7 +40,7 @@ class ServiceGallery extends Component{
             return(
                 <div className="swiper-slide service-gallery__single-slide" key={i}>
                     <div className="item">
-                        <img src={`assets/img/service/${val.img}`} className="img-fluid" alt="gallery data" />
+                        <img src={`assets/img/service/${val.img}`} style={{height: '700px', width: '850px'}} className="img-fluid" alt="gallery data" />
                     </div>
                 </div>
             )
@@ -59,4 +59,4 @@ class ServiceGallery extends Component{
     }
 }
 
-export default ServiceGallery;
+export default ServiceGalleryRoom;

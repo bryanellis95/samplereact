@@ -165,12 +165,12 @@ class NavBar extends Component{
                                                 <Link to={`${process.env.PUBLIC_URL}/services`}>PRODUCTS</Link>
                                                 <ul className="submenu">
                                                 <li><Link to={`${process.env.PUBLIC_URL}/services`}>Products Page</Link></li>
-                                                <li><Link to={`${process.env.PUBLIC_URL}/service-details-left-sidebar`}>UVC-Kleen</Link></li>
-                                                <li><Link to={`${process.env.PUBLIC_URL}/service-details-left-sidebar`}>Room sterilizer model</Link></li>
-                                                <li><Link to={`${process.env.PUBLIC_URL}/service-details-left-sidebar`}>Conveyor belt Sterilizer</Link></li>
-                                                <li><Link to={`${process.env.PUBLIC_URL}/service-details-left-sidebar`}>Armoire / Closet Sterilizer</Link></li>
-                                                <li><Link to={`${process.env.PUBLIC_URL}/service-details-left-sidebar`}>“Pop machine” sterilizer</Link></li>
-                                                <li><Link to={`${process.env.PUBLIC_URL}/service-details-left-sidebar`}>Ventilation / Air Duct Sterilizer</Link></li>
+                                                <li><Link to={`${process.env.PUBLIC_URL}/kleen`}>UVC-Kleen</Link></li>
+                                                <li><Link to={`${process.env.PUBLIC_URL}/room`}>Room sterilizer model</Link></li>
+                                                <li><Link to={`${process.env.PUBLIC_URL}/convey`}>Conveyor belt Sterilizer</Link></li>
+                                                <li><Link to={`${process.env.PUBLIC_URL}/arm`}>Armoire / Closet Sterilizer</Link></li>
+                                                <li><Link to={`${process.env.PUBLIC_URL}/pop`}>“Pop machine” sterilizer</Link></li>
+                                                <li><Link to={`${process.env.PUBLIC_URL}/vent`}>Ventilation / Air Duct Sterilizer</Link></li>
 
                                                 </ul>
                                             </li>

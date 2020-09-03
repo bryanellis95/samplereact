@@ -32,9 +32,9 @@ class ServiceGridSlider extends Component{
 
         }
         let data = [
-            {pageLink: 'service-details-left-sidebar', img: 'frmae.jpg', iconClass: 'flaticon-002-welding', serviceTitle: 'UVC-Kleen', serviceExcerpt: '', serviceUrl: 'services'},
-            {pageLink: 'service-details-left-sidebar', img: 'room.jpg', iconClass: 'flaticon-004-walkie-talkie', serviceTitle: 'Room sterilizer model', serviceExcerpt: '', serviceUrl: 'services'},
-            {pageLink: 'service-details-left-sidebar', img: 'Cabinet.jpg', iconClass: 'flaticon-010-tank-1', serviceTitle: 'Armoire / Closet Sterilizer', serviceExcerpt: '', serviceUrl: 'services'},
+            {pageLink: 'service-details-left-sidebar', img: 'frmae.jpg', iconClass: 'flaticon-002-welding', serviceTitle: 'UVC-Kleen', serviceExcerpt: '', serviceUrl: 'kleen'},
+            {pageLink: 'service-details-left-sidebar', img: 'room.jpg', iconClass: 'flaticon-004-walkie-talkie', serviceTitle: 'Room sterilizer model', serviceExcerpt: '', serviceUrl: 'room'},
+            {pageLink: 'service-details-left-sidebar', img: 'Cabinet.jpg', iconClass: 'flaticon-010-tank-1', serviceTitle: 'Armoire / Closet Sterilizer', serviceExcerpt: '', serviceUrl: 'arm'},
             {pageLink: 'service-details-left-sidebar', img: 'viewall.png', iconClass: 'flaticon-015-cart', serviceTitle: 'View All Products', serviceExcerpt: '', serviceUrl: 'services'},
 
         ];

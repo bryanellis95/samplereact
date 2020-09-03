@@ -7,12 +7,12 @@ class Services extends Component{
     render(){
 
         let data = [
-            {pageLink: 'service-details-left-sidebar', img: 'frmae.jpg', iconClass: 'flaticon-002-welding', serviceTitle: 'UVC-Kleen', serviceSubtitle: 'The UVC-Kleen is a small desk top sterilizer that delivers enough of a lethal UVC dose...(MORE)'},
-            {pageLink: 'service-details-left-sidebar', img: 'room.jpg', iconClass: 'flaticon-004-walkie-talkie', serviceTitle: 'Room sterilizer model', serviceSubtitle: 'The Room sterilizer is designed to disinfect a room by delivering enough...(MORE)'},
-            {pageLink: 'service-details-left-sidebar', img: 'noimage.png', iconClass: 'flaticon-015-cart', serviceTitle: 'Conveyor belt Sterilizer', serviceSubtitle: 'Designed to meet your needs'},
-            {pageLink: 'service-details-left-sidebar', img: 'Cabinet.jpg', iconClass: 'flaticon-010-tank-1', serviceTitle: 'Armoire / Closet Sterilizer', serviceSubtitle: 'The Armoire Sterilizer is designed to disinfect the aprons used by...(MORE)'},
-            {pageLink: 'service-details-left-sidebar', img: 'noimage.png', iconClass: 'flaticon-004-walkie-talkie', serviceTitle: '“Pop machine” sterilizer', serviceSubtitle: ''},
-            {pageLink: 'service-details-left-sidebar', img: 'noimage.png', iconClass: 'flaticon-002-welding', serviceTitle: 'Ventilation / Air Duct Sterilizer', serviceSubtitle: ''}
+            {pageLink: 'kleen', img: 'frmae.jpg', iconClass: 'flaticon-002-welding', serviceTitle: 'UVC-Kleen', serviceSubtitle: 'The UVC-Kleen is a small desk top sterilizer that delivers enough of a lethal UVC dose...(MORE)'},
+            {pageLink: 'room', img: 'room.jpg', iconClass: 'flaticon-004-walkie-talkie', serviceTitle: 'Room sterilizer model', serviceSubtitle: 'The Room sterilizer is designed to disinfect a room by delivering enough...(MORE)'},
+            {pageLink: 'convey', img: 'noimage.png', iconClass: 'flaticon-015-cart', serviceTitle: 'Conveyor belt Sterilizer', serviceSubtitle: 'Designed to meet your needs'},
+            {pageLink: 'arm', img: 'Cabinet.jpg', iconClass: 'flaticon-010-tank-1', serviceTitle: 'Armoire / Closet Sterilizer', serviceSubtitle: 'The Armoire Sterilizer is designed to disinfect the aprons used by...(MORE)'},
+            {pageLink: 'pop', img: 'noimage.png', iconClass: 'flaticon-004-walkie-talkie', serviceTitle: '“Pop machine” sterilizer', serviceSubtitle: ''},
+            {pageLink: 'vent', img: 'noimage.png', iconClass: 'flaticon-002-welding', serviceTitle: 'Ventilation / Air Duct Sterilizer', serviceSubtitle: ''}
         ];
 
         let Datalist = data.map((val, i) => {

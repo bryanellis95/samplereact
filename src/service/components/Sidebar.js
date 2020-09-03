@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 
+const prodimage3 = require('../../../public/assets/img/uvckleen.pdf')
+
 class Sidebar extends Component{
     render(){
 
@@ -21,17 +23,17 @@ class Sidebar extends Component{
         return(
             <div>
                 <div className="sidebar-wrapper">
-                    <div className="sidebar">
+                    {/* <div className="sidebar">
                         <h3 className="sidebar-title">Services</h3>
                         <ul className="sidebar-list">
                             {Datalist}
                         </ul>
-                    </div>
+                    </div> */}
                     <div className="sidebar">
                         <h3 className="sidebar-title">Download brochure</h3>
                         <ul className="sidebar-list">
-                            <li><a href="/"><i className="fa fa-file-pdf-o" />Brochures.PDF</a></li>
-                            <li><a href="/"><i className="fa fa-file-word-o" />Brochures.DOC</a></li>
+                            <li><a href={prodimage3} target="_blank"><i className="fa fa-file-pdf-o" />UVCKLEEN.PDF</a></li>
+                            {/* <li><a href="/"><i className="fa fa-file-word-o" />Brochures.DOC</a></li> */}
                         </ul>
                     </div>
                 </div>
