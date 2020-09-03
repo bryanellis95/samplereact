@@ -5,8 +5,9 @@ class NavBar extends Component{
 
     constructor(props){
         super(props);
-        this.state = {};
+        this.state = { windowWidth: window.innerWidth};
         this.handleScroll = this.handleScroll.bind(this);
+        this.handleResize = this.handleResize.bind(this);
 
         this.mobileMenuElement = React.createRef();
     }
@@ -20,12 +21,18 @@ class NavBar extends Component{
             this.setState({scroll: window.scrollY});
         }
     }
+
+     handleResize = (e) => {
+        this.setState({ windowWidth: window.innerWidth });
+       };
   
     componentDidMount() {
         this.mount = true;
         const el = document.querySelector('nav');
         this.setState({top: el.offsetTop, height: el.offsetHeight});
         window.addEventListener('scroll', this.handleScroll);
+        window.addEventListener("resize", this.handleResize);
+
     }
     
     componentDidUpdate() {
@@ -36,6 +43,8 @@ class NavBar extends Component{
 
     componentWillUnmount(){
         this.mount = false;
+        window.addEventListener("resize", this.handleResize);
+
     }
 
     render(){
@@ -88,6 +97,11 @@ class NavBar extends Component{
                                         </Link>
                                         <p style={{marginLeft: 10, fontWeight:'bold'}}>UVC KLEEN IT!</p>
                                     </div>
+                                    {this.state.windowWidth > 990 ? (
+                                    <span style={{fontSize:10}}>US-UVC is a US based company that has over 60 years experience designing and building equipment. This product line is our attempt to help the USA and all other countries battle the Covid-19 and other virus / bacteria that have invaded our daily life.</span>
+
+                                    ):null}
+
                                     {/* header contact info */}
                                     <div className="header-contact-info">
                                     <div className="header-info-single-item">

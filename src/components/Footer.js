@@ -50,13 +50,14 @@ class Footer extends Component{
                                 <div className="col-xl-3 col-lg-3 col-md-12">
                                 {/* footer intro wrapper */}
                                 <div className="footer-intro-wrapper">
-                                    <div className="footer-logo">
+                                    {/* <div className="footer-logo">
                                     <a href={`${process.env.PUBLIC_URL}/home-one`}>
                                         <img src="assets/img/logo/kleen.jpg" style={{height: '150px'}} alt="" />
                                     </a>
-                                    </div>
-                                    <div className="footer-desc">
-                                    US-UVC is a US based company that has over 60 years experience designing and building equipment. This product line is our attempt to help the USA and all other countries battle the Covid-19 and other virus / bacteria that have invaded our daily life.                                    </div>
+                                    </div> */}
+                                    {/* <div className="footer-desc">
+                                    US-UVC is a US based company that has over 60 years experience designing and building equipment. This product line is our attempt to help the USA and all other countries battle the Covid-19 and other virus / bacteria that have invaded our daily life.                                   
+                                     </div> */}
                                 </div>
                                 </div>
                                 <div className="col-xl-2 offset-xl-1 col-lg-3 col-md-4">
