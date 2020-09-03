@@ -92,10 +92,18 @@ class NavBar extends Component{
                                     {/* logo */}
                                     <div className="logo">
                                         <Link to = {`${process.env.PUBLIC_URL}/home-one`}>
+                                        {this.state.windowWidth < 990 ? (
+                                            <>
+                                            <img style={{height: 80, width: 80}} src="assets/img/logo/kleen.jpg" className="img-fluid" alt="Logo" />
+                                            <p style={{fontSize: 10, marginLeft:8, fontWeight:'bold'}}>UVC KLEEN IT!</p>
+                                            </>
+                                            ): (
+                                                <>
                                             <img style={{height: 120, width: 120}} src="assets/img/logo/kleen.jpg" className="img-fluid" alt="Logo" />
-                                            
+                                            <p style={{marginLeft: 10, fontWeight:'bold'}}>UVC KLEEN IT!</p>
+                                                </>
+                                        )}
                                         </Link>
-                                        <p style={{marginLeft: 10, fontWeight:'bold'}}>UVC KLEEN IT!</p>
                                     </div>
                                     {this.state.windowWidth > 990 ? (
                                     <span style={{fontSize:10}}>US-UVC is a US based company that has over 60 years experience designing and building equipment. This product line is our attempt to help the USA and all other countries battle the Covid-19 and other virus / bacteria that have invaded our daily life.</span>
