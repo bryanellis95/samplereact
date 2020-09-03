@@ -26,8 +26,8 @@ class ServiceGalleryRoom extends Component{
 
         let imageGalleryData = [
             {img: 'room.jpg'},
-            {img: 'room1.jpg'},
-            {img: 'room2.jpg'},
+            {img: 'room1.JPG'},
+            {img: 'room2.JPG'},
             // {img: 'service-details-4.jpg'},
             // {img: 'service-details-5.jpg'},
             // {img: 'service-details-6.jpg'}

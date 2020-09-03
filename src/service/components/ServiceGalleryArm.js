@@ -1,5 +1,9 @@
 import React, { Component } from 'react';
 import Swiper from 'react-id-swiper';
+// const prodimage1 = require('../../../public/assets/img/services/arm1.jpg')
+// const prodimage2 = require('../../../public/assets/img/services/arm2.jpg')
+// const prodimage3 = require('../../../public/assets/img/services/arm.jpg')
+// const prodimage4 = require('../../../public/assets/img/services/arm1.jpg')
 
 class ServiceGalleryArm extends Component{
     render(){
@@ -26,10 +30,10 @@ class ServiceGalleryArm extends Component{
 
         let imageGalleryData = [
             {img: 'Cabinet.jpg'},
-            {img: 'arm1.jpg'},
-            {img: 'arm2.jpg'},
-            {img: 'arm3.jpg'},
-            {img: 'arm4.jpg'},
+            {img: 'arm1.JPG'},
+            {img: 'arm2.JPG'},
+            {img: 'arm3.JPG'},
+            {img: 'arm4.JPG'},
             // {img: 'service-details-6.jpg'}
         ];
 

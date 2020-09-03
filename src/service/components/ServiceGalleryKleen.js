@@ -26,9 +26,9 @@ class ServiceGalleryKleen extends Component{
 
         let imageGalleryData = [
             {img: 'frmae.jpg'},
-            {img: 'frame1.jpg'},
-            {img: 'frame2.jpg'},
-            {img: 'frame3.jpg'},
+            {img: 'frame1.JPG'},
+            {img: 'frame2.JPG'},
+            {img: 'frame3.JPG'},
             // {img: 'service-details-5.jpg'},
             // {img: 'service-details-6.jpg'}
         ];
